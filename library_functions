@@ -1,8 +1,9 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <time.h>
 #include "library.h" 
+
+struct books bookrecords;
+struct student studentrecords;
+FILE *file_pointer;
+
 /* ---------- ISSUE BOOK ---------- */
 void issue_book() {
     clearScreen();
