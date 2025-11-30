@@ -74,8 +74,11 @@ Enter choice: _
 We use gets() because we like living on the edge, but fflush(stdin) saves us.
 
 --- Nayi Kitab Entry ---
+
 ID batao: 105
+
 Kitab ka naam kya hai: The Alchemist
+
 Lekhak (Author) kaun hai: Paulo Coelho
 
 >> Badhai ho! Kitab add ho gayi.
@@ -85,7 +88,9 @@ Lekhak (Author) kaun hai: Paulo Coelho
 Checks availability instantly. No fake promises.
 
 Kaunsi kitab chahiye (ID batao): 105
+
 Apna naam batao: Aditya
+
 >> Le jao bhai, par time pe wapas kar dena.
 
 **4. Search Feature (helper.c logic)**
@@ -95,4 +100,5 @@ Finds partial matches because students never remember full titles.
 Search query (Title/Author): Alch
 
 Search Results:
+
 >> FOUND: [ID: 105] The Alchemist by Paulo Coelho
