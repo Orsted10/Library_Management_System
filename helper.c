@@ -13,7 +13,7 @@ void searchByName(Kitab *shelf){
     char query[50];
     fflush(stdin);
     printf("\nSearch query (Title/Author): ");
-    gets(query);
+    fgets(query,sizeof(query),stdin);
   
     int found=0;
     printf("\nSearch Results:\n");

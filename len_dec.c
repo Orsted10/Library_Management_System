@@ -16,7 +16,7 @@ void kitabUthao(Kitab *shelf){
         }else{
             fflush(stdin);
             printf("Apna naam batao: ");
-            gets(ptr->kiskePaasHai);
+            fgets(ptr->kiskePaasHai,sizeof(ptr->kiskePaasHai),stdin);
             ptr->availableHai=0; // Ab ye available nahi rahi
             printf(">> Le jao bhai, par time pe wapas kar dena.\n");
         }

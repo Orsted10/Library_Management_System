@@ -32,9 +32,9 @@ void nayiKitabDalo(Kitab *shelf){
     // Buffer clear karna padega nahi to gets/fgets ro dega
     fflush(stdin); 
     printf("Kitab ka naam kya hai: ");
-    gets(nayaMaal->naam); // Haan I know gets unsafe hai par student life me chalta hai
+    fgets(nayaMaal->naam,sizeof(nayaMaal->naam),stdin); // Haan I know gets unsafe hai par student life me chalta hai
     printf("Lekhak (Author) kaun hai: ");
-    gets(nayaMaal->likhneWala);
+    fgets(nayaMaal->likhneWala,sizeof(nayaMaal->likhneWala),stdin);
     nayaMaal->availableHai=1; // By default available hai
     strcpy(nayaMaal->kiskePaasHai,"Koi Nahi");
     bookCount++;
