@@ -5,7 +5,7 @@
 int loginSystem(){
     char pass[20];
     printf("\n========================================\n");
-    printf("   DESI LIBRARY MANAGEMENT SYSTEM PRO   \n");
+    printf("   DESI LIBRARY MANAGEMENT SYSTEM   \n");
     printf("========================================\n");
     printf("Security Check required.\n");
     printf("Password dalo (Hint: admin123): ");

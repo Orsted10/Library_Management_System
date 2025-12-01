@@ -26,7 +26,7 @@ int main(){
     loadSabKuch(libraryShelf);
     // Step 3: Infinite style loop, jab tak user "Save & Exit" nahi bolta
     while(running){
-        printf("\n=== MAIN MENU (PRO MAX) ===\n");
+        printf("\n=== MAIN MENU ===\n");
         printf("1. Stock Dekho (List)\n");
         printf("2. Nayi Kitab Add Karo\n");
         printf("3. Kitab Issue Karo\n");
